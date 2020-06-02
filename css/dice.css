@@ -1,0 +1,66 @@
+#diceRow>td {
+  background-color: ivory;
+  border-radius: 5px;
+  border: solid black 3px;
+  height: 3em;
+  width: 3em;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 800;
+  color:green;
+}
+
+#selectRow td input[type="checkbox"] {
+  height: 1em;
+  width: 1em;
+}
+
+
+.hideme {
+  display: none;
+}
+
+.activePlayer {
+  font-weight: 800;
+  background-color:black;
+  font-style: italic;
+  color:white;
+}
+
+#diceRow>td.lockedDie {
+  font-style:italic;
+  background-color:grey;
+  color:red;
+}
+
+ul#playerList {
+   background-color: #205630;
+   list-style: none;
+   padding: 8px;
+   border: 3px solid limegreen;
+   border-radius: 10px;
+   color: bisque;
+}
+
+#selectRow td {
+  text-align: center;
+}
+
+html {
+  color: #c1e8c0;
+  font-size: 1em;
+  line-height: 1.4;
+  background-color: darkslategray;
+  margin:20px;
+
+}
+
+#userActions input[type="button"] {
+  height: 3em;
+  font-family: sans-serif;
+  color: lightgreen;
+  background-color: darkgreen;
+//  display:inline-flex;
+}
+
+
