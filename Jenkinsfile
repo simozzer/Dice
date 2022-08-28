@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'node:18-alpine:3.15' } }
+    agent { docker { image 'node:18-alpine3.15' } }
       stages {
         stage('log version info') {
       steps {
