@@ -3,6 +3,7 @@ pipeline {
       stages {
         stage('log version info') {
       steps {
+	sh 'pwd'
         sh 'node --version'
         sh 'npm --version'
 	sh 'npm install'
